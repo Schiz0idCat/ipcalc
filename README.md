@@ -4,23 +4,10 @@ Minimal IP network calculator. Shows quick and important information about a net
 ---
 
 Index:
-- [Features](#Features)
 - [Usage](#Usage)
 - [Build](#Build)
 
 ---
-
-## Features
-Main features:
-- Parse both IPv4 and IPv6 addresses.
-- Accepts addresses in multiple formats:
-    - IP/CIDR.
-    - IP + mask (CIDR).
-    - IP + mask (dotted mask).
-- Output information:
-    - Address.
-    - NetMask.
-    - Number of avaliable Hosts.
 
 ## Usage
 
@@ -30,15 +17,19 @@ ipcalc --ip <IP> [--mask <MASK>]
 #=====> EXAMPLE <=====#
 ❯ ipcalc -i 192.168.0.1/24
 
-Address: 192.168.0.1
-NetMask: 255.255.255.0
-Hosts:   254
+Address:   192.168.0.1
+NetMask:   255.255.255.0
+Hosts:     254
+Network:   192.168.0.0
+Broadcast: 192.168.0.255
 
 ❯ ipcalc -i 192.168.0.1 -m 255.255.255.0
 
-Address: 192.168.0.1
-NetMask: 255.255.255.0
-Hosts:   254
+Address:   192.168.0.1
+NetMask:   255.255.255.0
+Hosts:     254
+Network:   192.168.0.0
+Broadcast: 192.168.0.255
 ```
 
 ## Build
