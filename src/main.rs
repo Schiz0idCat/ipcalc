@@ -17,11 +17,11 @@ fn main() -> ExitCode {
         }
     };
 
-    println!("Address: {:>13}", addr.addr());
-    println!("NetMask: {:>15}", addr.netmask());
-    println!("Hosts: {:>7}", addr.hosts().size_hint().0);
-    println!("Network: {:>13}", addr.network());
-    println!("Broadcast: {:>5}", addr.broadcast());
+    println!("Address:   {}", addr.addr());
+    println!("NetMask:   {}", addr.netmask());
+    println!("Hosts:     {}", addr.hosts().size_hint().0);
+    println!("Network:   {}", addr.network());
+    println!("Broadcast: {}", addr.broadcast());
 
     ExitCode::SUCCESS
 }
