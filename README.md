@@ -12,11 +12,11 @@ Index:
 
 ## Features
 Main features:
-    - Parse both IPv4 and IPv6 addresses
+    - Parse both IPv4 and IPv6 addresses.
     - Accepts addresses in multiple formats:
-        - IP/CIDR
-        - IP + mask (CIDR)
-        - IP + mask (dotted mask)
+        - IP/CIDR.
+        - IP + mask (CIDR).
+        - IP + mask (dotted mask).
     - Output information:
         - Address.
         - NetMask.
