@@ -4,23 +4,23 @@ Minimal IP network calculator. Shows quick and important information about a net
 ---
 
 Index:
-    - [Features](#Features)
-    - [Usage](#Usage)
-    - [Build](#Build)
+- [Features](#Features)
+- [Usage](#Usage)
+- [Build](#Build)
 
 ---
 
 ## Features
 Main features:
-    - Parse both IPv4 and IPv6 addresses.
-    - Accepts addresses in multiple formats:
-        - IP/CIDR.
-        - IP + mask (CIDR).
-        - IP + mask (dotted mask).
-    - Output information:
-        - Address.
-        - NetMask.
-        - Number of avaliable Hosts.
+- Parse both IPv4 and IPv6 addresses.
+- Accepts addresses in multiple formats:
+    - IP/CIDR.
+    - IP + mask (CIDR).
+    - IP + mask (dotted mask).
+- Output information:
+    - Address.
+    - NetMask.
+    - Number of avaliable Hosts.
 
 ## Usage
 
