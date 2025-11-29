@@ -1,9 +1,9 @@
 use crate::error::ParseError;
 
 use clap::Parser;
+use ipnet::IpNet;
 use std::net::IpAddr;
 use std::str::FromStr;
-use ipnet::IpNet;
 
 #[derive(Parser)]
 #[command(arg_required_else_help = true)]

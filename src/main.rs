@@ -1,14 +1,14 @@
 use ipcalc::Cli;
-use ipnet::IpNet;
 
 use clap::Parser;
+use ipnet::IpNet;
 
 use std::process::ExitCode;
 
 fn main() -> ExitCode {
     let cli = Cli::parse();
 
-    let addr: IpNet= match cli.to_ipnet() {
+    let addr: IpNet = match cli.to_ipnet() {
         Ok(net) => net,
         Err(e) => {
             eprintln!("{}", e);
